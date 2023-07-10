@@ -8,13 +8,16 @@ public class Aithmetic {
 		return(a+b);
 	}
 	int sub(int a,int b) {
-		return(a-b);
+		return(b-a);
 	}
 	int mul(int a,int b) {
 		return(a*b);
 	}
 	double div(int a,int b) {
 		return(a/b);
+	}
+	double pow(int a, int b) {
+		return(Math.pow(a, b));
 	}
 
 	public static void main(String[] args) {
@@ -36,6 +39,10 @@ public class Aithmetic {
 		n=sc.nextInt();
 		m=sc.nextInt();
 		System.out.println("The quotient is "+obj.div(m, n));
+		System.out.println("Enter the base and exponent to find the result");
+		n=sc.nextInt();
+		m=sc.nextInt();
+		System.out.println("The result is "+obj.pow(m, n));
 	}
 
 }
