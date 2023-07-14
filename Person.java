@@ -1,7 +1,5 @@
 package ass1;
 
-import java.util.Scanner;
-
 public class Person {
 	private String name;
 	private int age;
@@ -42,6 +40,7 @@ public class Person {
 
 	public Person() {
 
+		count++;
 	}
 
 	@Override

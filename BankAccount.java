@@ -5,6 +5,12 @@ public class BankAccount {
 	private double balance; 
 	private String customerName;
 	
+	public BankAccount(int accountNumber, double balance, String customerName) {
+		super();
+		this.accountNumber = accountNumber;
+		this.balance = balance;
+		this.customerName = customerName;
+	}
 	public int getAccountNumber() {
 		return accountNumber;
 	}

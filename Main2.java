@@ -9,6 +9,7 @@ public class Main2 {
 		ba.setBalance(8434.45);
 		//setter is used here to store the data to the private variables
 		
+		BankAccount bb=new BankAccount(                                              );
 		
 		System.out.println("Name: "+ba.getCustomerName() + "Account Number: " + ba.getAccountNumber() + "Balance: " + ba.getBalance());
         //getter is used here to return the data set using the setter method		
