@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 class ContainerTest<T> {
 	
 	List<T> t;
-	Container<T> c = new Container("GURU",new String());
+	Container<T> c = new Container("Ben",new String());
 	
 	@Test
 	void testContainer() {
@@ -27,7 +27,7 @@ class ContainerTest<T> {
 
 	@Test
 	void testGet() {
-		assertEquals("GURU", c.get(0));
+		assertEquals("Ben", c.get(0));
 	}
 	@Test
 	void testGet1() {
